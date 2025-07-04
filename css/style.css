@@ -13,18 +13,19 @@
 
 h1 {
     font-family: 'minecraft';
+    margin: auto;
 }
 
 body {
-    background-color: black;
-    /* background-image: url(../imagens/Design\ sem\ nome\ \(2\).png);
-    background-size: contain; */
+    background: rgba(0, 0, 0, 0.8) url(../imagens/brick.png);
+    background-blend-mode: darken; /* Vi no yt: https://www.youtube.com/watch?v=RCvh0pmow_A */
 }
 
 header {
-    background-color: brown;
+    background-image: linear-gradient(to bottom, brown, rgb(94, 0, 0));
     padding: 0px;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 header h1 {
@@ -59,8 +60,11 @@ section#branco {
 section#branco h1 {
     text-align: center;
     background-color: darkgrey;
-    padding-top: 10px;
+    padding-top: none;
     border-radius: 10px 10px;
+
+    width: none;
+    height: 40px;
 }
 
 section#branco p {
@@ -87,6 +91,9 @@ section#vermelho h1 {
     text-align: center;
     color: white;
     border-radius: 10px 10px;
+
+    width: none;
+    height: 40px;
 }
 
 section#vermelho p {
@@ -111,4 +118,12 @@ section#videosmaisvisto {
 section#videosmaisvisto p {
     background-color: gray;
     padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    height: 20px;
 }
