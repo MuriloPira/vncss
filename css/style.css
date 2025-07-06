@@ -44,6 +44,31 @@ main {
     width: 1300px;
 }
 
+section#midias-sociais {
+    display: block;
+    text-align:left;
+    position: fixed;
+    margin: 10px;
+
+    background-color: brown;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(133, 35, 35);
+}
+
+section#midias-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#midias-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform 0.5s;
+}
 
 section#branco {
     margin: auto;
@@ -61,7 +86,8 @@ section#branco h1 {
     text-align: center;
     background-color: darkgrey;
     padding-top: none;
-    border-radius: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     width: none;
     height: 40px;
@@ -72,6 +98,10 @@ section#branco p {
     line-height: 1.5em;
     background-color: rgb(255, 255, 255);
     padding: 25px;
+}
+
+section#branco img {
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.555);
 }
 
 section#vermelho {
@@ -90,7 +120,8 @@ section#vermelho h1 {
     background-color: rgb(212, 57, 57);
     text-align: center;
     color: white;
-    border-radius: 10px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
     width: none;
     height: 40px;
@@ -100,6 +131,10 @@ section#vermelho p {
     text-align: center;
     background-color: brown(212, 57, 57);
     padding: 25px;
+}
+
+section#vermelho img {
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.555);
 }
 
 section#videosmaisvisto {
@@ -113,11 +148,32 @@ section#videosmaisvisto {
 
     border-radius: 30px;
     background-color: gray;
+    /* box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.555); */
 }
 
 section#videosmaisvisto p {
     background-color: gray;
     padding: 20px;
+}
+
+section#ultimovideo {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+
+    border-radius: 30px;
+    background-color: gray;
+}
+
+section#ultimovideo p {
+    background-color: gray;
+    padding: 20px;
+    font-family: 'minecraft';
+    font-weight: bolder;
 }
 
 footer {
