@@ -16,6 +16,34 @@ h1 {
     margin: auto;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(150, 0, 0);
+    transform: translate(-3px, -3px);
+    text-decoration: solid;
+    transition: transform 0.5s;
+    text-decoration: underline;
+}
+
+a#ared {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+a#ared:hover {
+    color: rgb(41, 41, 41);
+    transform: translate(-3px, -3px);
+    text-decoration: solid;
+    transition: transform 0.5s;
+    text-decoration: underline;
+}
+
 body {
     background: rgba(0, 0, 0, 0.8) url(../imagens/brick.png);
     background-blend-mode: darken; /* Vi no yt: https://www.youtube.com/watch?v=RCvh0pmow_A */
@@ -30,6 +58,9 @@ header {
 
 header h1 {
     text-align: center;
+    color: rgb(173, 173, 173);
+    -webkit-text-stroke: 0.3px black; /* Vi na internet */
+    font-size: 41px;
 }
 
 header img {
